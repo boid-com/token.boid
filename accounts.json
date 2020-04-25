@@ -1,0 +1,8 @@
+{
+  "kylin":{
+    "token":"token2.boid"
+  },
+  "local":{
+    "token":"eosio.token"
+  }
+}
