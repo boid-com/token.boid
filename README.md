@@ -19,6 +19,8 @@ If the end user needs to utilize IBC, all they need to do is deposit their token
 
 Now that the account has the IBC token, they can interact with the relay contract and move the token to any other chain easily.
 
+Additionally, the IBC token deposit can originate from any account on the chain, not just the IBC contract. If you send the IBC deposit from your own personal account then a memo is not necessary, the native tokens will be issued back to you (however you can designate issue_to to have the tokens issued to some other account as well).
+
 ### Example transactions
 **Deposit IBC token to receive native token**
 https://kylin.bloks.io/transaction/ba6211a85efa8d425fbd1dd649db06c150f720467ed11b43be345c0fae8b02bc?tab=traces
